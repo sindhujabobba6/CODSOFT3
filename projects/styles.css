@@ -1,0 +1,157 @@
+/* Resetting default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and font settings */
+body {
+    font-family: cursive;
+    line-height: 1.6;
+    background-color: #d2a0a0;
+    color: black;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(230, 174, 215);
+    color: black;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: rgb(15, 15, 15);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    color: #1a1f20;
+}
+
+/* Hero section */
+.hero {
+    text-align: center;
+    background-color: bisque;
+    color: brown;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.hero .cta-button {
+    background-color: white;
+    color: rgb(35, 33, 35);
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.hero .cta-button:hover {
+    background-color: #bdc3c7;
+}
+
+/* Flavors section */
+.flavors {
+    background-color: #e28080;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.flavors h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.flavor-item {
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+    margin: 0 10px;
+    background-color: rgb(160, 103, 103);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.flavor-item h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.flavor-item p {
+    font-size: 16px;
+}
+
+/* Order section */
+.order {
+    background-color: white;
+    color: white(99, 97, 97);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.order h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.order p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.order .cta-button {
+    background-color: pink;
+    color: black;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.order .cta-button:hover {
+    background-color: #da959fde;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(233, 175, 175);
+    color: black;
+}
+
+footer a {
+    color: #9adbeb;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: pink;
+}
